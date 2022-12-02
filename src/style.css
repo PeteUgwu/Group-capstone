@@ -1,12 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: whitesmoke;
+  background-color: #fff;
   font-family: 'Open Sans', 'Lucida Grande', tahoma, verdana, arial, sans-serif !important;
+  min-height: 100vh;
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+header {
+  width: 100%;
+  height: 7em;
+  display: flex;
+  align-items: center;
+}
+
+header > div {
+  width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 8em;
+  position: fixed;
+  background: hsl(240deg 6% 87%);
+  border-bottom: 1px solid black;
+  top: 0;
+}
+
+.fd-number {
+  font-weight: bold;
+  color: black;
+}
+
+.fd-number span {
+  font-weight: bold;
+  color: red;
+  padding: 0 0.5em;
+}
+
+.fd-categories {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: darkgray;
+  white-space: nowrap;
+}
+
+.fd-categories:hover {
+  color: black;
+}
+
+.bubbles {
+  display: inline-block;
+  font-family: arial;
+  position: relative;
+}
+
+.bubbles h1 {
+  position: relative;
+  font-family: 'Luckiest Guy', cursive;
+  color: rgb(77, 70, 70);
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.individual-bubble {
+  position: absolute;
+  border-radius: 100%;
+  bottom: 10px;
+  background-color: rgba(93, 79, 79, 0.568);
+  z-index: 1;
 }
 
 main {
   display: flex;
   width: 100%;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5em;
+}
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+main .grid-item {
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.food {
+  font-size: small;
+}
+
+.food img {
+  border-radius: 5px;
+}
+
+.food > div {
+  margin-bottom: 2em;
+}
+
+.food-name {
+  text-align: left;
+}
+
+.food-name .like {
+  float: right;
+}
+
+.food-name .like:hover {
+  transform: scale(120%);
+}
+
+.likes {
+  text-align: right;
+}
+
+.likes-count span {
+  color: gray;
+}
+
+.grid-container input[type="button"] {
+  width: 100%;
+  border: 1px black solid;
+  line-height: 1em;
+  outline: none;
+  font-size: large;
+  color: gray;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-container input[type="button"]:hover {
+  outline: none;
+  background: rgb(205, 158, 41);
+  color: white;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: white;
+}
+
+footer .f-top {
+  width: 100%;
+  background: #0000001a;
+  border-top: 1px solid rgba(0, 0, 0, 0.473);
+  padding: 1.5em 0.5em;
+  font-size: x-small;
+}
+
+footer .f-bottom {
+  background: #0000004a;
+  width: 100%;
+  height: 1.5em;
+}
+
+.pop-up {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3%;
+  color: rgb(71, 68, 68);
+  overflow: auto;
+  height: 100%;
+}
+
+.popup-details {
+  border: 1px solid black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 3%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 86%;
+  padding-bottom: 5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4 {
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.flex h4 {
+  text-align: left;
+}
+
+.meal {
+  text-align: center;
+}
+
+.meal img {
+  width: 450px;
+  height: 300px;
+}
+
+.closebtn {
+  position: relative;
+  align-self: end;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(71, 68, 68);
+  margin-right: 4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.no-comment {
+  font-style: italic;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+#form {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+::placeholder {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.name-field,
+textarea {
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px;
+  padding: 5px;
+}
+
+.name-field,
+textarea,
+.comment-btn {
+  border: 1px solid rgb(71, 68, 68);
+  border-radius: 5px;
+}
+
+.comment-btn,
+.add-comment-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid black;
+  box-shadow: 3px 3px;
+  font-weight: bold;
+  color: darkgrey;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.comment-sp {
+  font-style: italic;
+}
+
+.add-comment-btn:hover,
+.comment-btn:hover {
+  outline: none;
+  background: rgb(205, 158, 41);
+  color: white;
 }

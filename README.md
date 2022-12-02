@@ -23,7 +23,6 @@ Git/GitHub flow, webpack, linters, and workflows.
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -38,7 +37,7 @@ Git/GitHub flow, webpack, linters, and workflows.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [ThemealDb] <a name="about-project"></a>
 
 > Description.
 
@@ -48,7 +47,7 @@ Git/GitHub flow, webpack, linters, and workflows.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Stack (MongoDB, Express.js, React.js, Node.js)
+> Stack (HTML, CSS, JAVASCRIPT)
 
 <details>
   <summary>Server</summary>
@@ -63,10 +62,20 @@ Git/GitHub flow, webpack, linters, and workflows.
 
 > key features of the application.
 
-- **[Add to list]**
-- **[Comment ot single item]**
+- **[Item list that can be "liked"]**
+- **[Comment on single item]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## LINK TO THE KANBAN BOARD
+
+- [Kanban Board](https://github.com/PeteUgwu/Group-capstone/projects/1)
+
+## LINK TO CODE REVIEW WE ARE PROUD OF
+
+- Peter [Code Review](https://github.com/PeteUgwu/Group-capstone/pull/51)
+
+- Pius [Code Review]()
 
 <!-- LIVE DEMO -->
 
@@ -74,7 +83,7 @@ Git/GitHub flow, webpack, linters, and workflows.
 
 > link to our deployed project.
 
-- [Live Demo Link](https://github.com/PeteUgwu/Group-capstone/dist/)
+- [Live Demo Link](https://peteugwu.github.io/Group-capstone/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,24 +95,20 @@ Git/GitHub flow, webpack, linters, and workflows.
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need these, incase they are not already setup, Kindly Read [Prerequisites](./Prerequisites.md).
-
 ### Setup
 
 Clone this repository to your desired folder:
 ```sh
   mkdir my-folder
   cd my-folder
-  git clone git@github.com:SSEKPIUS/Microverse-WebPack-Template.git  
+  git clone git@github.com:PeteUgwu/Group-capstone.git  
 ```
 
 ### Install
 
 Install this project with:
 ```sh
-  npm install -force
+  npm install
 ```
 
 ### Usage
@@ -128,15 +133,8 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project on Git:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +144,7 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author 1**
+👤 **Authors/Team members**
 
 1. Ssekweyama Pius
 
@@ -154,9 +152,11 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/SSEK_PIUS)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/pius-ssekweyama-23665794)
 
-1. Pete Ugwu
+2. Peter Ugwu
 
-- GitHub: [@githubhandle](https://https://github.com/PeteUgwu)
+- GitHub: [@PeteUgwu](https://github.com/PeteUgwu)
+- Twitter: [@Petrus4Charles](https://twitter.com/Petrus4Charles)
+- LinkedIn: [/peter-ugwu-15a3a724b/](https://www.linkedin.com/in/peter-ugwu-15a3a724b/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,8 +167,10 @@ Example:
 
 > features we will add to the project.
 
-- [ ] **[css styles]**
-
+- [ ] Send and receive data from an API.
+- [ ] Use callbacks and promises.
+- [ ] pop windows with comments on items
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -177,7 +179,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/PeteUgwu/Group-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +197,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Credit to everyone who inspired this codebase.
 
-I would like to thank microverse student team for the resorces availed.
+I would like to thank microverse student team for the resources availed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

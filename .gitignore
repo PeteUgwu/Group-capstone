@@ -30,12 +30,9 @@ typings/
 .node_repl_history
 *.tgz
 .yarn-integrity
-.env
-.env.test
 .cache
 .next
 .nuxt
-dist
 .cache/
 .vuepress/dist
 .serverless/
